@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+  <script src="highlight.js"></script>
+</head>
+<body>
+  <a-scene id="comicsScene">
+
+    
+    <a-entity cursor="rayOrigin: mouse"></a-entity>
+
+    
+    <a-entity id="comic-container" position="0 2 -5" rotation="0 0 0" scale="0.5 0.5 0.5" highlight>
+      
+      <a-entity id="thumbnails" thumbnails></a-entity>
+      
+      <a-entity id="boundary" boundary></a-entity>
+    </a-entity>
+  </a-scene>
+</body>
+</html>
